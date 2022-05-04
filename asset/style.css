@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar{
+    background-color: #047aed;
+    height: 70px;
+    display: block;
+}
+.navbar .navbar-brand{
+    font-family: 'Courgette', cursive;
+}
+.navbar .nav-item .nav-link{
+    color: #ffffff;
+    font-family: 'sora', serif;
+    font-weight: bolder;
+}
+.navbar .nav-item .nav-link:hover{
+    border-bottom: 3px #ffff solid;
+   
+}
+.introduction{
+    height: 400px;
+    color: #ffff;
+    background-color: #047aed;
+    position: relative;
+    font-family: 'Josefin Slab', serif;
+}
+
+.introduction::before,
+.introduction::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+.intro-left{
+    margin-top: 50px;
+}
+.lead{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.btn-more{
+border-width: 2px;
+border-radius: 15px;
+border-color:#ffffff;
+color: #ffffff;
+}
+.btn-more:hover{
+    color: #047aed;
+    background-color: #ffffff;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.s ease;
+    -ms-transition: all  0.4s ease;
+    -o-transition: all  0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.intro-right{
+    margin-top: 50px;
+    height: 100%;
+}
+.picture-slide{
+    height: 8cm;
+    width: auto;
+}
+.site-stats{
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-family: 'sora';
+    font-weight: bolder;
+}
+.stats-head{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.stats-text{
+    color: #047aed;
+    margin-top: 10px;
+}
+.site-stats .fas{
+    color: #047aed;
+    margin-bottom: 1px;
+}
+.cli{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+.cli .stats-image{
+   margin-top: 0;
+   width: 15cm;
+   height: 6cm;
+}
+.cli .cards{
+   top:0; 
+}
+.cli .card{
+    height: 2cm;
+    width: 8cm;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: #047aed;
+    border-color: #047aed;
+    box-shadow: 0px 5px 10px 0px #757575;
+}
+
+.extrem{
+    height: auto;
+    color: #ffff;
+    background-color: #047aed;
+    position: relative;
+    font-family: 'Josefin Slab', serif;
+    font-weight:bold ;
+}
+
+.extrem .extrem-right, .extrem-left{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.extrem .extrem-left{
+    text-align: center;
+
+}
+.extrem .extrem-right{
+    text-align: center;
+}
+.extrem .extrem-image{
+    width: 10cm;
+    text-align: center;
+}
+
+
+.lang{
+    background-color: #ffffff;
+    position: relative;
+    height: auto;
+    margin-bottom: 1cm;
+}
+.lang .lang-title{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.lang .col{
+    width: 4cm;
+    margin: 1px;
+}
+.lang .card h4{
+    text-align: center;
+    margin: 10px;
+}
+.lang .card{
+    border-width: 2px;
+    border-color: #047aed;
+    border-radius: 10px;
+    height: 5cm;
+    margin: 18px 10px 40px 40px;
+    box-shadow: 0px 5px 10px 0px #757575;
+}
+.lang .card:hover{
+    transform: translateY(-15px);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.s ease;
+    -ms-transition: all  0.4s ease;
+    -o-transition: all  0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: 0px 5px 10px 0px #000000;
+}
+.footer{
+    background-color: #002240;;
+    color: #ffffff;
+    height: auto;
+    font-family: 'Sora', sans-serif;
+    font-weight: bolder;
+ }
+ .footer .container{ 
+     padding: 80px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+.footer .brand{
+    text-align: center;
+    font-size: 20px ;
+}
+.footer .brand h3{
+    font-size: 14px;
+}
+.footer .brand p{
+    font-size: 12px;
+}
+.footer .nav .nav-link{
+    color: #ffffff;
+    margin: 0;
+    font-size: 12px;
+    word-spacing: 1px;
+}
+.footer .socials .fab{
+    color: #ffffff;
+    margin: 5px;
+    justify-content: center;
+}
+/*-----------------for priceing page-------------*/
+.price{
+    height:15cm;
+    width: 100%;
+    color: #ffff;
+    background-color: #047aed;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    justify-content:center;
+   
+}
+.price::before,
+.price::after {
+    content: '';
+    position: absolute;
+    height: 6cm;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+
+.price .currency{
+    margin-top: 3cm;
+}
+
+.price-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    
+}
+.price-list .card{
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 18px 10px 40px 40px;
+    box-shadow: 0px 5px 10px 0px #e7e7e7;
+    transition: 0.5s ease-in-out;
+}
+.price-list .card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    border-color: #007bff !important;
+}
+
+
+.about .rounded-3 {
+    transition: 0.5s ease-in-out;
+} 
+.about .rounded-3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    border-color: #007bff !important;
+}
+
+/*---------------media qurry---------------*/
+@media (max-width: 480px) {    
+    .navbar{
+        background-color: #047aed;
+        height: auto;
+        display: block;
+    }
+    .introduction{
+        height: auto;
+        color: #ffff;
+        background-color: #047aed;
+        padding-bottom: 70px;
+    }
+    .cli{
+        align-items: center;
+        width: 100%;
+        position: absolute;
+    }
+    .cli .stats-image{
+        margin-top: 0;
+        width: 100%;
+        height: 3cm;
+        align-items: center; 
+     }
+    .cli .card{
+        margin-top: 20px; 
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+     }
+
+     .lang{
+        width: auto;
+    }
+  
+    .lang .col{
+        width: auto;
+        margin: 0.5px;
+    }
+    .lang .card{
+        width: auto;
+        height: 6cm;
+    }
+ 
+
+ }
